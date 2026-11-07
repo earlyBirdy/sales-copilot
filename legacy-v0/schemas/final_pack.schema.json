@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "final_pack.schema.json",
+  "title": "FinalOutputPack",
+  "type": "object",
+  "required": [
+    "source_summary",
+    "extracted_sales_signals",
+    "draft_outputs",
+    "review_notes",
+    "final_editable_blocks"
+  ],
+  "properties": {
+    "source_summary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "extracted_sales_signals": {
+      "$ref": "extraction.schema.json"
+    },
+    "draft_outputs": {
+      "type": "array",
+      "items": {
+        "$ref": "draft_output.schema.json"
+      }
+    },
+    "review_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "final_editable_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "text"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

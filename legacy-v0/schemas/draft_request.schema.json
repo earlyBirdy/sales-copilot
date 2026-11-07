@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "draft_request.schema.json",
+  "title": "DraftRequest",
+  "type": "object",
+  "required": [
+    "audience",
+    "tone",
+    "lengths"
+  ],
+  "properties": {
+    "audience": {
+      "type": "string",
+      "enum": [
+        "internal",
+        "customer",
+        "prospect",
+        "partner",
+        "linkedin_dm",
+        "linkedin_post",
+        "crm_note"
+      ]
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "professional_neutral",
+        "warm_consultative",
+        "executive_brief",
+        "technical_commercial",
+        "social_light"
+      ]
+    },
+    "lengths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "short",
+          "medium",
+          "long"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

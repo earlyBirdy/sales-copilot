@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "draft_output.schema.json",
+  "title": "DraftOutput",
+  "type": "object",
+  "required": [
+    "audience",
+    "tone",
+    "drafts"
+  ],
+  "properties": {
+    "audience": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "drafts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "length",
+          "text"
+        ],
+        "properties": {
+          "length": {
+            "type": "string",
+            "enum": [
+              "short",
+              "medium",
+              "long"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

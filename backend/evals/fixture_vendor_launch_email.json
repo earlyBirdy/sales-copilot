@@ -1,0 +1,34 @@
+{
+  "name": "vendor_launch_email",
+  "source": {
+    "source_type": "email",
+    "title": "Embedded World 2026 update",
+    "raw_text": "SINTRONES announces its Embedded World 2026 showcase featuring IEC 62443-aligned development, ThermoSiphon cooling technology, and rugged Edge AI positioning.",
+    "sender_company": "SINTRONES",
+    "user_goal": "Create customer and LinkedIn drafts"
+  },
+  "expected_shapes": {
+    "normalized_source_keys": [
+      "source_type",
+      "title",
+      "company",
+      "product_or_solution",
+      "summary_bullets",
+      "claims",
+      "explicit_cta"
+    ],
+    "sales_signals_keys": [
+      "company",
+      "product_or_solution",
+      "announcement_type",
+      "target_industries",
+      "target_buyers",
+      "selling_points",
+      "proof_points",
+      "customer_pain_points",
+      "business_value",
+      "risks_or_unclear_claims",
+      "cta_options"
+    ]
+  }
+}

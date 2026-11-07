@@ -1,0 +1,30 @@
+{
+  "name": "export_meta_blocks",
+  "kind": "export_meta",
+  "session": {
+    "source": {
+      "title": "Vendor launch",
+      "sender_company": "Vendor Inc."
+    },
+    "sales_signals": {
+      "selling_points": [
+        "rugged fit",
+        "reliability",
+        "service support"
+      ]
+    },
+    "final_pack": {
+      "source_summary": [
+        "A",
+        "B",
+        "C"
+      ],
+      "final_editable_blocks": [
+        {
+          "label": "customer_short",
+          "text": "Customer-ready text"
+        }
+      ]
+    }
+  }
+}

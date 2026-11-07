@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "SourceDocument",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_type",
+    "raw_text"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "email",
+        "article",
+        "press_release",
+        "announcement",
+        "note"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "raw_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sender_company": {
+      "type": "string"
+    },
+    "sender_person": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "user_goal": {
+      "type": "string"
+    },
+    "preferred_audience": {
+      "type": "string",
+      "enum": [
+        "internal",
+        "customer",
+        "prospect",
+        "partner",
+        "linkedin_dm",
+        "linkedin_post",
+        "crm_note"
+      ]
+    },
+    "tone_preset": {
+      "type": "string",
+      "enum": [
+        "professional_neutral",
+        "warm_consultative",
+        "executive_brief",
+        "technical_commercial",
+        "social_light"
+      ]
+    },
+    "output_lengths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "short",
+          "medium",
+          "long"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+{
+  "source_id": "src_002",
+  "source_type": "article",
+  "title": "Industrial edge AI security trends",
+  "raw_text": "A recent industry article discusses how rugged edge AI deployments increasingly need stronger cyber resilience, thermal reliability, and long-life maintainability in transportation and industrial environments.",
+  "url": "https://example.com/article",
+  "user_goal": "Create internal and LinkedIn post drafts",
+  "preferred_audience": "internal",
+  "tone_preset": "professional_neutral",
+  "output_lengths": [
+    "short",
+    "medium"
+  ]
+}

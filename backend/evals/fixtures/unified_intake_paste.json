@@ -1,0 +1,12 @@
+{
+  "name": "unified_intake_paste",
+  "kind": "unified_intake",
+  "payload": {
+    "intake_mode": "paste",
+    "source_type": "email",
+    "title": "Vendor launch",
+    "raw_text": "Vendor launches a new rugged edge AI product update.",
+    "sender_company": "Vendor Inc.",
+    "user_goal": "Create customer update"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "industry_article_url",
+  "source": {
+    "source_type": "article",
+    "title": "Industrial edge AI security trends",
+    "raw_text": "A recent industry article discusses how rugged edge AI deployments increasingly need stronger cyber resilience and thermal reliability.",
+    "url": "https://example.com/article",
+    "user_goal": "Create internal and partner drafts"
+  },
+  "expected_shapes": {
+    "normalized_source_keys": [
+      "source_type",
+      "title",
+      "company",
+      "product_or_solution",
+      "summary_bullets",
+      "claims",
+      "explicit_cta"
+    ],
+    "sales_signals_keys": [
+      "company",
+      "product_or_solution",
+      "announcement_type",
+      "target_industries",
+      "target_buyers",
+      "selling_points",
+      "proof_points",
+      "customer_pain_points",
+      "business_value",
+      "risks_or_unclear_claims",
+      "cta_options"
+    ]
+  }
+}

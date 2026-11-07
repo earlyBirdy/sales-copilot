@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "extraction.schema.json",
+  "title": "SalesSignalExtraction",
+  "type": "object",
+  "required": [
+    "summary_bullets",
+    "company",
+    "product_or_solution",
+    "announcement_type",
+    "selling_points",
+    "proof_points",
+    "business_value",
+    "cta_options"
+  ],
+  "properties": {
+    "summary_bullets": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "company": {
+      "type": "string"
+    },
+    "product_or_solution": {
+      "type": "string"
+    },
+    "announcement_type": {
+      "type": "string",
+      "enum": [
+        "launch",
+        "event",
+        "promotion",
+        "partnership",
+        "certification",
+        "article",
+        "update"
+      ]
+    },
+    "target_industries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "target_buyers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "selling_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proof_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "customer_pain_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "business_value": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risks_or_unclear_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cta_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,95 @@
+{
+  "source_summary": [
+    "SINTRONES shares an announcement relevant to sales outreach.",
+    "The content appears suitable for repackaging into audience-specific sales drafts.",
+    "The source should be reviewed for key claims, proof points, and usable CTA angles."
+  ],
+  "extracted_sales_signals": {
+    "summary_bullets": [
+      "SINTRONES shares an announcement relevant to sales outreach.",
+      "The content appears suitable for repackaging into audience-specific sales drafts.",
+      "The source should be reviewed for key claims, proof points, and usable CTA angles."
+    ],
+    "company": "SINTRONES",
+    "product_or_solution": "Embedded World 2026 product announcement",
+    "announcement_type": "update",
+    "target_industries": [
+      "industrial",
+      "enterprise"
+    ],
+    "target_buyers": [
+      "sales leads",
+      "technical buyers"
+    ],
+    "selling_points": [
+      "relevant market update",
+      "usable as outreach trigger",
+      "can be adapted by audience"
+    ],
+    "proof_points": [
+      "source-provided announcement",
+      "named company reference",
+      "named topic or title"
+    ],
+    "customer_pain_points": [
+      "limited time to rewrite updates manually",
+      "need for consistent messaging"
+    ],
+    "business_value": [
+      "saves sales drafting time",
+      "improves message consistency"
+    ],
+    "risks_or_unclear_claims": [
+      "verify technical or commercial claims before external use"
+    ],
+    "cta_options": [
+      "Happy to share a short summary if useful.",
+      "Let me know if you want a version tailored to your use case.",
+      "We can turn this into a customer-ready note if needed."
+    ]
+  },
+  "draft_outputs": [
+    {
+      "audience": "customer",
+      "tone": "technical_commercial",
+      "drafts": [
+        {
+          "length": "short",
+          "text": "I came across this update from SINTRONES and thought it may be relevant. Main angle: relevant market update. Happy to share a short summary if useful."
+        },
+        {
+          "length": "medium",
+          "text": "I came across this update from SINTRONES and thought it may be relevant. The source points to relevant market update, with business value around saves sales drafting time. Let me know if you want a version tailored to your use case."
+        }
+      ]
+    },
+    {
+      "audience": "linkedin_post",
+      "tone": "social_light",
+      "drafts": [
+        {
+          "length": "short",
+          "text": "Interesting update from SINTRONES. Main angle: relevant market update. Happy to share a short summary if useful."
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Review check: verify technical or commercial claims before external use",
+    "Check public wording carefully before posting externally."
+  ],
+  "final_editable_blocks": [
+    {
+      "label": "customer_short",
+      "text": "I came across this update from SINTRONES and thought it may be relevant. Main angle: relevant market update. Happy to share a short summary if useful."
+    },
+    {
+      "label": "customer_medium",
+      "text": "I came across this update from SINTRONES and thought it may be relevant. The source points to relevant market update, with business value around saves sales drafting time. Let me know if you want a version tailored to your use case."
+    },
+    {
+      "label": "linkedin_post_short",
+      "text": "Interesting update from SINTRONES. Main angle: relevant market update. Happy to share a short summary if useful."
+    }
+  ]
+}

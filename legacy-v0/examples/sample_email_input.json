@@ -1,0 +1,15 @@
+{
+  "source_id": "src_001",
+  "source_type": "email",
+  "title": "Embedded World 2026 product announcement",
+  "raw_text": "SINTRONES announces its Embedded World 2026 showcase featuring IEC 62443-aligned development, patented ThermoSiphon cooling technology, and the ABOX-5221 rugged Edge AI platform for demanding deployments. Visit Hall 3, Booth 3-458.",
+  "sender_company": "SINTRONES",
+  "date": "2026-03-10",
+  "user_goal": "Create customer and LinkedIn drafts",
+  "preferred_audience": "customer",
+  "tone_preset": "technical_commercial",
+  "output_lengths": [
+    "short",
+    "medium"
+  ]
+}

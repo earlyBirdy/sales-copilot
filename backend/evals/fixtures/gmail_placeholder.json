@@ -1,0 +1,9 @@
+{
+  "name": "gmail_placeholder",
+  "kind": "gmail_placeholder",
+  "payload": {
+    "title": "Inbox item",
+    "sender_company": "Vendor Inc.",
+    "user_goal": "Review later"
+  }
+}

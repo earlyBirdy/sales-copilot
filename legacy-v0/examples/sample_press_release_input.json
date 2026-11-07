@@ -1,0 +1,16 @@
+{
+  "source_id": "src_003",
+  "source_type": "press_release",
+  "title": "New channel promotion release",
+  "raw_text": "The company announces a limited-time promotion for its industrial gateway line, with stronger positioning around uptime, serviceability, and partner support for field deployments.",
+  "sender_company": "Example Industrial",
+  "date": "2026-03-10",
+  "user_goal": "Create partner and prospect drafts",
+  "preferred_audience": "partner",
+  "tone_preset": "warm_consultative",
+  "output_lengths": [
+    "short",
+    "medium",
+    "long"
+  ]
+}
