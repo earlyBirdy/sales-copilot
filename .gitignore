@@ -1,0 +1,45 @@
+# Local Python environments (keep requirements.txt, not installed packages)
+venv/
+.venv/
+env/
+ENV/
+
+# Python temporary/build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local secrets (example templates remain trackable)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Runtime data / SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Node / Next.js generated output
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# Local machine/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
